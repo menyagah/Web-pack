@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/menyagah/Web-pack/issues"
   },
-  "homepage": "https://github.com/menyagah/Web-pack#readme"
+  "homepage": "https://github.com/menyagah/Web-pack#readme",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
 }
