@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is a javascript webpack tutorial project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/menyagah/Web-pack.git"
