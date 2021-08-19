@@ -8,7 +8,10 @@ module.exports = {
         filename: "main.[contenthash].js",
         path: path.resolve(__dirname, "dist")
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [new HtmlWebpackPlugin({
+        template: "./src/template.html",
+    }
+    )],
 
     module: {
         rules: [
